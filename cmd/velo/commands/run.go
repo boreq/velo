@@ -20,7 +20,7 @@ var runCmd = guinea.Command{
 			Description: "Path to the configuration file",
 		},
 	},
-	ShortDescription: "serves your music",
+	ShortDescription: "runs the service",
 }
 
 func runRun(c guinea.Context) error {

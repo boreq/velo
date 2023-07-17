@@ -12,9 +12,9 @@ var MainCmd = guinea.Command{
 		"users":          &users.UsersCmd,
 		"default_config": &defaultConfigCmd,
 	},
-	ShortDescription: "a music streaming service",
+	ShortDescription: "an activity tracking service",
 	Description: `
-Eggplant serves your music using a web interface.
+Velo is a self-hosted activity tracking service.
 `,
 }
 
